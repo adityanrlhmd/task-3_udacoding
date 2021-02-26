@@ -45,7 +45,7 @@ header nav .list .kanan ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 475px;
+  margin-left: 540px;
 }
 
 header nav .list .kanan ul li {
@@ -217,7 +217,7 @@ section {
 
 main .content {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 main .content .title {
@@ -627,6 +627,123 @@ main .content .padding .ketiga .isi .link p a:hover {
   font-weight: bold;
 }
 
+main .content .padding .list {
+  margin-top: 50px;
+  width: 760px;
+}
+
+main .content .padding .list .judul {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #525252;
+  padding-bottom: 10px;
+}
+
+main .content .padding .list .isi .berita-isi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+main .content .padding .list .isi .berita-isi .gambar img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+main .content .padding .list .isi .berita-isi .deskripsi {
+  margin-left: 20px;
+  border-bottom: 1px solid rgba(168, 167, 167, 0.774);
+  width: 100%;
+}
+
+main .content .padding .list .isi .berita-isi .deskripsi .atas-deskripsi {
+  height: 100px;
+}
+
+main .content .padding .list .isi .berita-isi .deskripsi .atas-deskripsi a {
+  text-decoration: none;
+  color: black;
+}
+
+main .content .padding .list .isi .berita-isi .deskripsi .atas-deskripsi a p {
+  font-size: 26px;
+}
+
+main .content .padding .list .isi .berita-isi .deskripsi .atas-deskripsi a:hover {
+  color: #008deb;
+}
+
+main .content .padding .list .isi .berita-isi .deskripsi .bawah-deskripsi p {
+  color: brown;
+  font-weight: 600;
+}
+
+main .content .padding .list .more a {
+  text-decoration: none;
+  color: black;
+}
+
+main .content .padding .list .more a:hover {
+  color: #008deb;
+}
+
+main .profile {
+  background-color: #0b2447;
+  padding: 50px 150px 50px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .profile .kiri-profile {
+  width: 500px;
+}
+
+main .profile .kiri-profile h1 {
+  font-size: 40px;
+  color: white;
+}
+
+main .profile .kanan-profile {
+  padding: 0 50px 0 100px;
+}
+
+main .profile .kanan-profile .kanan-atas {
+  margin-bottom: 15px;
+}
+
+main .profile .kanan-profile .kanan-atas p {
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+}
+
+main .profile .kanan-profile .kanan-bawah {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .profile .kanan-profile .kanan-bawah .kiri img {
+  width: 75px;
+  border-radius: 100px;
+}
+
+main .profile .kanan-profile .kanan-bawah .kanan {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+main .profile .kanan-profile .kanan-bawah .kanan .nama {
+  margin-bottom: 5px;
+  color: #018dff;
+}
+
+main .profile .kanan-profile .kanan-bawah .kanan .skill {
+  font-size: 18px;
+  color: #aca9a9;
+}
+
 @media screen and (min-width: 0px) and (max-width: 400px) {
   .owl-carousel .owl-nav {
     top: 35%;
@@ -685,7 +802,7 @@ footer .atas .kiri {
 }
 
 footer .atas .kiri .judul {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 footer .atas .kiri .judul h1 {
@@ -693,9 +810,9 @@ footer .atas .kiri .judul h1 {
 }
 
 footer .atas .kiri .about {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   color: #c9c5c5;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 footer .atas .kiri .sosmed ul {
@@ -724,74 +841,73 @@ footer .atas .kiri .sosmed ul li a:focus {
 }
 
 footer .atas .kanan {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 0 0 100px;
-}
-
-footer .atas .kanan .company {
-  padding: 0 50px 0 50px;
-}
-
-footer .atas .kanan .company .judul {
-  margin-bottom: 35px;
-}
-
-footer .atas .kanan .company .judul h3 {
-  color: white;
-}
-
-footer .atas .kanan .company .list ul {
-  padding-left: 0;
-}
-
-footer .atas .kanan .company .list ul li {
-  list-style-type: none;
-  margin-bottom: 20px;
-}
-
-footer .atas .kanan .company .list ul li a {
-  text-decoration: none;
-  color: #c9c5c5;
-}
-
-footer .atas .kanan .company .list ul li a:hover {
-  color: white;
-}
-
-footer .atas .kanan .contact {
-  padding: 0 50px 0 50px;
+  padding: 0 0 0 150px;
 }
 
 footer .atas .kanan .contact .judul {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
-footer .atas .kanan .contact .judul h3 {
+footer .atas .kanan .contact .judul h2 {
   color: white;
 }
 
-footer .atas .kanan .contact .list ul {
-  padding-left: 0;
+footer .atas .kanan .contact .row p {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
 }
 
-footer .atas .kanan .contact .list ul li {
-  list-style-type: none;
+footer .atas .kanan .contact .row p span {
+  color: #eb3333;
+}
+
+footer .atas .kanan .contact .row input {
+  width: 500px;
+  border: none;
+  border-bottom: 1.5px solid rgba(114, 113, 113, 0.884);
+  height: 30px;
+  outline: none;
+  background: none;
+  color: white;
+}
+
+footer .atas .kanan .contact .row input:focus {
+  border-bottom: 1.5px solid white;
+}
+
+footer .atas .kanan .contact .row input:hover {
+  border-bottom: 1.5px solid white;
+}
+
+footer .atas .kanan .contact .row .message {
+  width: 100%;
+  border: none;
+  border-bottom: 1.5px solid rgba(114, 113, 113, 0.884);
+  height: 30px;
+  outline: none;
+}
+
+footer .atas .kanan .contact .row .message:focus {
+  border-bottom: 1px solid white;
+}
+
+footer .atas .kanan .contact .tombol {
+  margin-top: 35px;
   margin-bottom: 20px;
+  border-radius: 2px;
 }
 
-footer .atas .kanan .contact .list ul li a {
+footer .atas .kanan .contact .tombol a {
   text-decoration: none;
-  color: #c9c5c5;
-}
-
-footer .atas .kanan .contact .list ul li a:hover {
-  color: #3fb899;
-}
-
-footer .atas .kanan .contact .list ul li p {
-  color: #c9c5c5;
+  background: -webkit-gradient(linear, left top, right top, from(#005d6d), to(#003c6d));
+  background: linear-gradient(to right, #005d6d, #003c6d);
+  color: white;
+  font-size: 11px;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 2px;
 }
 
 footer .bawah {
@@ -799,7 +915,11 @@ footer .bawah {
 }
 
 footer .bawah .text {
-  color: white;
+  color: #a1a1a1;
   text-align: center;
+}
+
+footer .bawah .text p {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
